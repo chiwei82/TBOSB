@@ -18,7 +18,7 @@ function Scene() {
 
     void main() {
       float alpha = sin(uTime);
-      gl_FragColor = vec4( uMouse.x , uMouse.y, 0.0, alpha);
+      gl_FragColor = vec4( uMouse.x , uMouse.y, 0.0, 1.0);
     }
   `
 

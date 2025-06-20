@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 html,
 body,
 #root {
@@ -13,12 +15,13 @@ body,
   width: 100vw;
   height: 100vh;
   display: flex;
-  justify-content: center;  /* 水平置中 */
-  align-items: center;      /* 垂直置中 */
-}
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 12px;
+}    
 
 .canvas-container {
   width: 400px;
   height: 400px;
-  border: 1px solid #ccc; /* 可加可不加，幫助視覺除錯 */
+  border: 1px solid #ccc;
 }
